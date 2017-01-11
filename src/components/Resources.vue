@@ -5,13 +5,8 @@
         <i class="fa fa-user-circle" aria-hidden="true"></i>
       </div>
       <div class="col-sm-7 text-left">
-        <p v-translate>I am a therapist.</p>
+        <p>These are resources.</p>
       </div>
-    </div>
-    <div class="row text-center">
-      <span v-translate>Change Language</span> : &nbsp;&nbsp;&nbsp;
-      <button class="btn btn-default btn-xs" @click="$translate.setLang('en')">EN</button>
-      <button class="btn btn-default btn-xs" @click="$translate.setLang('es')">ES</button>
     </div>
   </div>
 </template>

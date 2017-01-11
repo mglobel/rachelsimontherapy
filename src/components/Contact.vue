@@ -5,14 +5,19 @@
         <i class="fa fa-user-circle" aria-hidden="true"></i>
       </div>
       <div class="col-sm-7 text-left">
-        <p v-translate>I am a therapist.</p>
+        <p v-translate>Contact me</p>
       </div>
     </div>
-    <div class="row text-center">
-      <span v-translate>Change Language</span> : &nbsp;&nbsp;&nbsp;
-      <button class="btn btn-default btn-xs" @click="$translate.setLang('en')">EN</button>
-      <button class="btn btn-default btn-xs" @click="$translate.setLang('es')">ES</button>
-    </div>
+    <p>
+      The decision to seek therapy is an important one, and reaching out for help is a big first step.
+      Call, text, or email to learn more, ask questions, and see if we’re a good fit.
+
+      C: 267-567-4966
+      E: RSimonLSW@gmail.com
+
+      1429 Walnut Street, Suite 1300
+      Philadelphia, PA 19102 (include map)
+    </p>
   </div>
 </template>
 

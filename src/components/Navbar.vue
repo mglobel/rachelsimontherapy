@@ -1,10 +1,18 @@
 <template>
   <nav class="navbar navbar-default">
-    <a class="navbar-brand" href="/">{{$store.state.appTitle}}</a>
+    <!-- rainbow here -->
+    <div>
+      <a class="navbar-brand" href="/"><i class="fa fa-transgender" aria-hidden="true"></i> {{$store.state.appTitle}}</a>
+    </div>
     <ul class="nav navbar-nav navbar-right">
       <li>
-        <router-link to="/" class="nav-item nav-link"> Home </router-link>
-        <router-link to="/practice" class="nav-item nav-link"> Therapy </router-link>
+        <router-link to="/speaking" class="nav-item nav-link"> Speaking </router-link>
+      </li>
+      <li>
+        <router-link to="/resources" class="nav-item nav-link"> Resources </router-link>
+      </li>
+      <li>
+        <router-link to="/contact" class="nav-item nav-link"> Contact </router-link>
       </li>
       <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
     </ul>

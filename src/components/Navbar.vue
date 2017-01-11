@@ -4,6 +4,7 @@
     <ul class="nav navbar-nav navbar-right">
       <li>
         <router-link to="/" class="nav-item nav-link"> Home </router-link>
+        <router-link to="/practice" class="nav-item nav-link"> Therapy </router-link>
       </li>
       <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
     </ul>

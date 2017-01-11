@@ -2,7 +2,7 @@
   <nav class="navbar navbar-default">
     <!-- rainbow here -->
     <div>
-      <a class="navbar-brand" href="/"><i class="fa fa-transgender" aria-hidden="true"></i> {{$store.state.appTitle}}</a>
+      <router-link class="navbar-brand" to="/"><i class="fa fa-transgender" aria-hidden="true"></i> {{$store.state.appTitle}}</router-link>
     </div>
     <ul class="nav navbar-nav navbar-right">
       <li>

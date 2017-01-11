@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="container text-center">
+  <div id="app" class="container">
     <navbar></navbar>
     <router-view></router-view>
   </div>
@@ -30,4 +30,11 @@ export default {
     color: #42b983
   p
     text-align: justify
+
+  .well
+    animation: appear .4s forwards
+
+  @keyframes appear
+    0% { opacity: 0 }
+    100%   { opacity: 1 }
 </style>

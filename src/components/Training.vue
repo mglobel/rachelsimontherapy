@@ -16,9 +16,7 @@
 </template>
 
 <script>
-  export default {
-    locales: require('../i18n/Practice.js')
-  }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

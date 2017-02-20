@@ -25,9 +25,6 @@ export default {
   $fa-font-path: '../node_modules/font-awesome/fonts/';
   @import 'node_modules/font-awesome/scss/font-awesome';
 
-  //some styling adaptations
-  h1
-    color: #42b983
   p
     text-align: justify
 
@@ -37,4 +34,7 @@ export default {
   @keyframes appear
     0% { opacity: 0 }
     100%   { opacity: 1 }
+
+  body
+    background-image: url("assets/bg-image.jpg");
 </style>

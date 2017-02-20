@@ -6,14 +6,15 @@
         The decision to seek therapy is an important one, and reaching out for help is a big first step.
       <p>
         Reach out to me to learn more or ask questions, and see if we’re a good fit.
+      <p>
+        C: 267-567-4966
+      <p>
+        E: RSimonLSW@gmail.com
     </section>
     <section class="contact-details">
 
-      <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-75.16659021377565%2C39.948953540235145%2C-75.16433715820314%2C39.95048335567248&amp;layer=mapnik&amp;marker=39.949718452230464%2C-75.16546368598938" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=39.94972&amp;mlon=-75.16546#map=19/39.94972/-75.16546">View Larger Map</a></small>
-
-      C: 267-567-4966
-      <br />
-      E: RSimonLSW@gmail.com
+      <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-75.16659021377565%2C39.948953540235145%2C-75.16433715820314%2C39.95048335567248&amp;layer=mapnik&amp;marker=39.949718452230464%2C-75.16546368598938" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=39.94972&amp;mlon=-75.16546#map=19/39.94972/-75.16546">View Larger Map</a>
+     
       <br />
       1429 Walnut Street, Suite 1300
       <br />
@@ -83,7 +84,7 @@
 
     h1
       flex: 0 1 100%
-      
+      color: #42b983
     section
       flex: 0 0 50%
       padding: 1rem;

@@ -2,14 +2,13 @@
   <div class="well">
     <div class="row">
       <div class="col-sm-5">
-        <i class="fa fa-user-circle" aria-hidden="true"></i>
+        <img class="img-responsive img-rounded" src="../assets/bridge.jpg"/>
       </div>
       <div class="col-sm-7 text-left">
+        <h1>Training and Speaking</h1>
         <p>I offer training and speaking services to community based organizations, schools, and healthcare agencies that prioritize cultural competency in LGBTQ issues for their staff and students. If your organization might benefit from consultation, speaking services, or training, let’s discuss how I can meet those needs.
-
-          Through my consulting work, I have assisted schools and organizations build a better understanding of gender identity development, the ways that being a queer person affects experiences as a student, a patient, and a community member, and explore paths to make their spaces safer for queer and trans individuals.
-
-          As a trained sex educator and social worker, I have also taught comprehensive sexuality education to high schoolers and college students as a semester long elective class, in a weekend retreat format, and one-time guest speaker. </p>
+        <p>Through my consulting work, I have assisted schools and organizations build a better understanding of gender identity development, the ways that being a queer person affects experiences as a student, a patient, and a community member, and explore paths to make their spaces safer for queer and trans individuals.
+        <p>As a trained sex educator and social worker, I have also taught comprehensive sexuality education to high schoolers and college students as a semester long elective class, in a weekend retreat format, and one-time guest speaker.
       </div>
     </div>
   </div>
@@ -23,6 +22,7 @@
 <style scoped>
   h1 {
     color: #42b983;
+    margin-top: 0;
   }
 
   .logo {

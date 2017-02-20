@@ -4,7 +4,11 @@
       <h1>Rachel Simon, LSW MEd</h1>
       <h2>Psychotherapy | Education | Consulting</h2>
       <p>
-      Finding a therapist, especially for queer or trans-affirming individuals, can be a daunting and complex task.  I’m glad you made it here. I am a psychotherapist and licensed social worker in Center City Philadelphia, and I work collaboratively with a wide range of clients who seek change, insight, and fulfillment. I work regularly with individual adults, children, and adolescents, as well as with families and couples.</p>
+        Finding a therapist, especially for queer or trans-affirming individuals, can be a daunting and complex task.  <b>I’m glad you made it here.</b>
+      </p>
+      <p>
+        I am a psychotherapist and licensed social worker in Center City Philadelphia, and I work collaboratively with a wide range of clients who seek change, insight, and fulfillment. I work regularly with individual adults, children, and adolescents, as well as with families and couples.
+      </p>  
     </div>
     <img src='../assets/headshot.png' />
   </div>
@@ -24,15 +28,17 @@
     width: 80px
     height: 80px
   i 
-    font-size: 10rem;
+    font-size: 10rem
+  p
+    max-width: 700px
 
   img 
     height: 225px
     margin: 10px 30px
 
   .well
-    display: flex
-
+    @media(min-width: 600px) 
+      display: flex
     img
       margin-left: auto
 

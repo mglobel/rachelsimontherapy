@@ -1,5 +1,6 @@
 <template>
   <div class="well">
+    <h1>Client Therapy Services</h1>
     <img src='../assets/headshot.png' />
     <p>
       Among the range of reasons that people begin therapy, there seems to be a common thread. People often want to improve some aspect of their emotional and mental health. In our work together, we will explore the areas of your life that are challenging or distressing, access and process difficult emotions, and make meaning of patterns in your unique narrative.

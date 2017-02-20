@@ -12,7 +12,7 @@ import Resources from './components/Resources'
 
 // ==================== Router registration ====================
 export default new Router({
-  mode: 'hash',
+  mode: 'history',
   routes: [
     { path: '/', component: Home },
     { path: '/therapy', component: Therapy },

@@ -1,7 +1,6 @@
 <template>
-  <div class="well">
+  <div class="container">
     <h1>Client Therapy Services</h1>
-    <img src='../assets/headshot.png' />
     <p>
       Among the range of reasons that people begin therapy, there seems to be a common thread. People often want to improve some aspect of their emotional and mental health. In our work together, we will explore the areas of your life that are challenging or distressing, access and process difficult emotions, and make meaning of patterns in your unique narrative.
     <p>
@@ -10,13 +9,6 @@
       I believe that by creating a safe and empathic space for a collaborative therapeutic relationship, I can help guide you in finding ways to navigate the ups and downs in your life. Each session provides an opportunity for strength, self-awareness, and self-compassion, and I strive to provide a supportive and holding environment for such growth to be possible. 
     <p>
       While my practice is specialized to provide non-pathologizing and affirming therapy for queer and trans individuals, I welcome clients of all gender identities and orientations.
-    <div>
-      <b>Fees & Insurance:</b>
-      <p>
-        I offer clients a sliding scale individualizing fees based on a number of factors. You may contact me to discuss this fee structure before we begin.
-      <p>
-        As an out-of-network provider, I can work with you to obtain reimbursement from your insurance company. 
-    </div>
       
     <p>
       
@@ -73,8 +65,15 @@
       </ul>
     </p>
 
-
+    <div>
+      <h4>FEES & INSURANCE</h4>
+      <p>
+        I offer clients a sliding scale individualizing fees based on a number of factors. You may contact me to discuss this fee structure before we begin.
+      <p>
+        As an out-of-network provider, I can work with you to obtain reimbursement from your insurance company. 
+    </div>
   </div>
+
 </template>
 
 <script>
@@ -83,16 +82,15 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="sass" scoped>
-  h1
-    color: #42b983
   .logo
     width: 80px
     height: 80px
   i 
     font-size: 10rem;
-
   img 
     height: 225px
     float: right
     margin: 10px 30px;
+  .content
+    margin: 0 auto
 </style>

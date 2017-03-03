@@ -1,5 +1,5 @@
 <template>
-  <section class="contact well">
+  <section class="contact container">
     <div class="row">
       <div class="col-sm-6">
         <h1>Contact Me</h1>
@@ -9,8 +9,10 @@
           <p>
             Reach out to me to learn more or ask questions, and see if we’re a good fit.
           <p>
+            <!-- do a phone icon -->
             C: 267-567-4966
           <p>
+            <!-- do an email icon -->
             E: RSimonLSW@gmail.com
           <p>
             1429 Walnut Street, Suite 1300
@@ -20,8 +22,6 @@
       </div>
       <section class="contact-details col-sm-6">
         <div class='embed-container'><iframe width='500' height='450' frameborder='0' style='border:0' src='https://www.google.com/maps/embed/v1/place?q=1429%20Walnut%20Street%2C%20Suite%201300%20Philadelphia%2C%20PA%2019102&key=AIzaSyDyQpzdh030Eoxm4tfZ3afFJaXPYO8lTKU' allowfullscreen></iframe></div>
-      
-
       </section>
     </div>
   </section>
@@ -34,10 +34,6 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="sass" scoped>
-  /* this should really just be a layout class */
-  h1
-    color: #42b983
-
   .embed-container 
     position: relative
     padding-bottom: 56.25%

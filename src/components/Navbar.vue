@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-default">
     <!-- rainbow here -->
-    <div class="container-fluid">
+    <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
@@ -9,7 +9,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <router-link to="/" class="navbar-brand">Rachel Simon Therapy</router-linka>
+        <router-link to="/" class="navbar-brand">Rachel Simon, LSW MEd</router-linka>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
@@ -44,6 +44,28 @@
 
   .nav {
     padding-right: 1rem;
+  }
+
+  .navbar {
+    margin-bottom: 0;
+    padding: .8em 0;
+  }
+
+  .navbar-default {
+    background-image: url("../assets/nav-bg.jpg");
+  }
+
+  .navbar-brand {
+    color: #F8F8F8;
+    font-size: 1.3em;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #F8F8F8;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    color: #F8F8F8;
   }
 
 </style>

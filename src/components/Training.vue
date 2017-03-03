@@ -1,5 +1,5 @@
 <template>
-  <div class="well">
+  <div class="container">
     <div class="row">
       <div class="col-sm-4">
         <img class="img-responsive img-rounded" src="../assets/bridge.jpg"/>
@@ -20,11 +20,6 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  h1 {
-    color: #42b983;
-    margin-top: 0;
-  }
-
   .logo {
     width: 80px;
     height: 80px;
@@ -33,4 +28,6 @@
   img {
     max-height: 400px;
   }
+
+
 </style>
